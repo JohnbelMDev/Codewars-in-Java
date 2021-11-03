@@ -7,6 +7,6 @@ public class CodeWars {
         counter++;
       }
     }
-    return count;
+    return counter;
   }
 }
