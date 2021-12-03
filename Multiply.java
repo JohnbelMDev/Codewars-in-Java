@@ -1,9 +1,17 @@
+import java.util.Arrays;
+
 class Multiply {
-    public static Double multiply(Double a, Double b) {
-        return a * b;
-    }
+
     public static void main(String[] args) {
-      double result = multiply(2.3,3.3);
-       System.out.println("The output is: " + result);
+      int[] newArray = new int[4];
+      // newArray[0] = 3;
+     int x = 0;
+      for (int i = 1; i <= 4; i++) {
+        newArray[3] = 9;
+        // x++;
+
+      }
+      int[] v = Arrays.copyOf(newArray,x);
+       System.out.println(Arrays.toString(v));
    }
 }
