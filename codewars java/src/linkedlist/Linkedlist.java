@@ -1,6 +1,13 @@
 //https://www.codewars.com/kata/582c297e56373f0426000098/train/java
 ////circular linked list
 
+
+
+//Rather than passing a new instance for each time we want to create a new node
+// I want to implement a push method that when you call that method it creates new node on top of the existing node
+// which means it would to be kept in memmory
+// for example 
+ 	//
 package linkedlist;
 
 public class Linkedlist {

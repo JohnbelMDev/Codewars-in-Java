@@ -21,4 +21,7 @@ class Node {
     public Node getNext() {
         return next;
     }
+    public int pushToNextNode(int data) {
+    	return 3;
+    }
 }
