@@ -10,24 +10,34 @@
  	//
 package linkedlist;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Linkedlist {
 	
 	public static void main (String args []) {
-		 String printNode = stringify(new Node(1, new Node(2, new Node(3))));
-		System.out.println(printNode);
+//		 String printNode = stringify(new Node(1, new Node(2, new Node(3))));
+		int num = 2;
+		String [] myArray  =  new String[3];
+		String x = "x";
+		myArray[num] = x;
+//		num++;
+//		myArray[num] = num;
+		System.out.println(Arrays.toString(myArray));
+//		num++;
 	}
 
-	  public static String stringify(Node list) {
-	      // Your code here.
-	    String nodeToString = "";
-	      while(list != null){
-	        nodeToString +=  list.getData() + " -> ";
-	        
-	        
-	       list  = list.getNext(); 
-	      }
-	    nodeToString += "null";
-	      return nodeToString;
-	  }
+//	  public static String stringify(Node list) {
+//	      // Your code here.
+//	    String nodeToString = "";
+//	      while(list != null){
+//	        nodeToString +=  list.getData() + " -> ";
+//	        
+//	        
+//	       list  = list.getNext(); 
+//	      }
+//	    nodeToString += "null";
+//	      return nodeToString;
+//	  }
 
 	}

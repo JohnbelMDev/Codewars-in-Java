@@ -3,7 +3,7 @@ package linkedlist;
 class Node {
     private int data;
     private Node next;
-    
+    // Creating a constructor    
     public Node(int data, Node next) {
         this.data = data;
         this.next = next;
@@ -21,7 +21,6 @@ class Node {
     public Node getNext() {
         return next;
     }
-    public int pushToNextNode(int data) {
-    	return 3;
+    public void pushToNextNode(int data) {
     }
 }
